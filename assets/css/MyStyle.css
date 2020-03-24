@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header */
+
+    #header{
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+    }
+    
+    .navbar{
+        padding: 20px 0;
+        background-color: rgba(0,0,0,0.7);
+    }
+
+    .navbar-brand{
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+
+    .navbar-dark .navbar-brand{
+        color: #fff;
+    }
+
+    .nav-item{
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-left: 10px;
+    }
+
+    .navbar-dark .navbar-nav .nav-item .nav-link:hover{
+        color: #9966CC;
+        text-shadow: none;
+    }
+
+    .navbar-dark .navbar-nav .nav-link{
+        text-shadow: 2px -2px 1px #262626;
+        color: white;
+    }
+
+    .btn-primary{
+        background: #9966CC;
+        border: none;
+    }
+
+    .btn-primary:hover{
+        background: #7d3ac0;
+    }
+
+    .btn-primary:active{
+        border: none;
+        background: rgb(125, 58, 192);
+    }
+
+    .navbar-dark .navbar-nav .nav-link.btn-primary{
+        border-radius: 40px;
+        width: 120px;
+        font-weight: bold;
+    }
+    
+    .navbar-dark .navbar-nav .nav-link.btn-primary:hover{
+        color: white;
+    }
+
+/* main */
+
+    .main{
+        position: relative;
+        background: url('../img/background/bg.jpg');
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        padding: 220px 0 200px;
+    }
+
+    .main::before{
+        content: '';
+        position: absolute;
+        top:0;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to top,rgba(0,0,0,0.8),rgba(0,0,0,0.3));
+    }
+
+    .main h2{
+        font-family: 'Poppins', sans-serif;
+        margin-top: 1em;
+        padding: 0;
+        font-size: 2.6em;
+        color: #fff;
+        text-transform: capitalize;
+        font-weight: bold;
+        text-shadow: 2px 3px 1px #262626;
+    }
+
+    .main p{
+        margin-top: 1em;
+        padding: 0;
+        font-size: 1em;
+        color: white;
+    }
+
+    .main .btn{
+        color: #fff;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .main .card{
+        box-shadow: none;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .main .card .card-body .card-title{
+        font-size: 24px;
+    }
+
+    .main .card .card-body .card-subtitle{
+        font-size: 14px;
+    }
+
+    .main .card-body{
+        margin-top: -70px;
+    }
+
+    .main form input{
+        border-radius : 20px;
+        padding-left: 20px;
+        border: 1px #7d3ac0 dashed;
+    }
+
+
+    @media (max-width: 768px){
+        .main{
+            padding: 200px 0;
+            height: 80vh;
+        }
+
+        .main h2{
+            margin-top: 60px;
+            font-size: 2em;
+        }
+
+        .main .btn{
+            margin-top: 60px;
+        }
+
+        .collapse{
+            background: rgba(0, 0, 0, 0.7);
+            width: 100%;
+            height: 180px;
+            border-radius: 20px;
+        }
+    }
+
+    @media (max-width: 425px){
+        .main{
+            height: 120vh;
+        }
+        .main h2{
+            text-align: center;
+            margin-top: -20px;
+        }
+
+        .main .btn{
+            position: relative;
+            left: 10%;
+            margin-top: -5px;
+            margin-bottom: 40px;
+        }
+
+        .main .btn-login{
+            position: relative;
+            left: 0;
+        }
+    }
+
+ /* about */
+
+    #about{
+        position: relative;
+        padding-top: 50px;
+        height: 100vh;
+    }
+
+    .card{
+        margin-top: 120px;
+        border-color: #9966CC;
+        box-shadow: 3px 5px 4px #262626;
+    }
+
+    .card-title{
+        margin-top: 70px;
+    }
+
+    .card.one::before{
+        content: '';
+        background-image: url('../img/svg/auth.png');
+        background-size: cover;
+        border-radius: 50%;
+        background-position: center;
+        border: 1px solid #9966CC;
+        width: 170px;
+        height: 150px;
+        position: absolute;
+        top: -75px;
+        left: 90px;
+    }
+
+    .card.two::before{
+        content: '';
+        background-image: url('../img/svg/search.png');
+        background-size: cover;
+        background-position: -10px -5px;
+        border-radius: 50%;
+        border: 1px solid #9966CC;
+        width: 170px;
+        height: 150px;
+        position: absolute;
+        top: -75px;
+        left: 90px;
+    }
+
+    .card.three::before{
+        content: '';
+        background-image: url('../img/svg/pay.png');
+        background-size: cover;
+        background-position: 5px -3px;
+        border-radius: 50%;
+        border: 1px solid #9966CC;
+        width: 170px;
+        height: 150px;
+        position: absolute;
+        top: -75px;
+        left: 90px;
+    }
+
+    #lorem{
+        background-color: #f4f4f4;
+    }
+
+/* contact */
+
+    #contact{
+        position: relative;
+        padding-top: 50px;
+        height: 100vh;
+    }
+
+    .subtitle h3{
+        margin-top: 50px;
+        color: #3f3d55;
+    }
+
+    .subtitle h3::after{
+        content: '';
+        position: absolute;
+        top: 130px;
+        left: 46.8%;
+        height: 3px;
+        width: 90px;
+        background: #9966CC;
+    }
+
+/* Footer */
+
+hr{
+    margin-top: 120px;
+}
+
+    footer{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    footer p.lead{
+        color: #3f3d55;
+        font-size: 16px;
+    }
+
+    footer p.powered{
+        font-size: 12px;
+        margin-top: -10px;
+    }
+
+    h6{
+        color: white;
+    }
+
+    ul.nav{
+        margin-left: 36%;
+    }
+
+    .fa-facebook, .fa-instagram, .fa-whatsapp{
+        font-size: 24px;
+        margin-left: 50px;
+        color: #9966CC;
+    }
+    
+    .fa-facebook:hover, .fa-instagram:hover, .fa-whatsapp:hover{
+        color: #3f3d55;
+    }
+
+    @media (max-width: 400px ){
+        .fa-facebook, .fa-instagram, .fa-whatsapp{
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    }
+
