@@ -175,7 +175,7 @@ class Pembayaran extends CI_Controller
         ], true);
 
         $callback = [
-            'Hasil' => $hasil //set array hasil dengan isi dari view.php yang diload
+            'Hasil' => $hasil //set array hasil dengan isi dari history.php yang diload
         ];
 
         echo json_encode($callback); //konversi variable $callback menjadi JSON

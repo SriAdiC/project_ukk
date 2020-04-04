@@ -9,6 +9,22 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.card{
+        margin-top: 120px;
+        border-color: #9966CC;
+        box-shadow: 3px 5px 4px #262626;
+    }
+
+.card-title{
+    margin-top: 70px;
+}
+
+a:hover.email{
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
 
 /* header */
 
@@ -76,21 +92,21 @@ body{
 
     .main{
         position: relative;
-        background: url('../img/background/bg.jpg');
-        min-height: 100vh;
+        background: linear-gradient(186deg, #1b1b1b 0%,rgba(114, 103, 114, 0.5) 70%), url('../img/background/bg.jpg');
+        max-height: 80vh;
         background-size: cover;
         background-position: center;
-        padding: 220px 0 200px;
+        padding: 180px 0;
     }
 
-    .main::before{
+    /* .main::before{
         content: '';
         position: absolute;
         top:0;
         width: 100%;
         height: 100vh;
         background-image: linear-gradient(to top,rgba(0,0,0,0.8),rgba(0,0,0,0.3));
-    }
+    } */
 
     .main h2{
         font-family: 'Poppins', sans-serif;
@@ -189,102 +205,14 @@ body{
         }
     }
 
- /* about */
+    
 
-    #about{
-        position: relative;
-        padding-top: 50px;
-        height: 100vh;
-    }
-
-    .card{
-        margin-top: 120px;
-        border-color: #9966CC;
-        box-shadow: 3px 5px 4px #262626;
-    }
-
-    .card-title{
-        margin-top: 70px;
-    }
-
-    .card.one::before{
-        content: '';
-        background-image: url('../img/svg/auth.png');
-        background-size: cover;
-        border-radius: 50%;
-        background-position: center;
-        border: 1px solid #9966CC;
-        width: 170px;
-        height: 150px;
-        position: absolute;
-        top: -75px;
-        left: 90px;
-    }
-
-    .card.two::before{
-        content: '';
-        background-image: url('../img/svg/search.png');
-        background-size: cover;
-        background-position: -10px -5px;
-        border-radius: 50%;
-        border: 1px solid #9966CC;
-        width: 170px;
-        height: 150px;
-        position: absolute;
-        top: -75px;
-        left: 90px;
-    }
-
-    .card.three::before{
-        content: '';
-        background-image: url('../img/svg/pay.png');
-        background-size: cover;
-        background-position: 5px -3px;
-        border-radius: 50%;
-        border: 1px solid #9966CC;
-        width: 170px;
-        height: 150px;
-        position: absolute;
-        top: -75px;
-        left: 90px;
-    }
-
-    #lorem{
-        background-color: #f4f4f4;
-    }
-
-/* contact */
-
-    #contact{
-        position: relative;
-        padding-top: 50px;
-        height: 100vh;
-    }
-
-    .subtitle h3{
-        margin-top: 50px;
-        color: #3f3d55;
-    }
-
-    .subtitle h3::after{
-        content: '';
-        position: absolute;
-        top: 130px;
-        left: 46.8%;
-        height: 3px;
-        width: 90px;
-        background: #9966CC;
-    }
+    
 
 /* Footer */
 
-hr{
-    margin-top: 120px;
-}
-
     footer{
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: -25px;
     }
 
     footer p.lead{

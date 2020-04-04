@@ -21,26 +21,6 @@
                     <a href="<?= base_url() ?>" class="navbar-brand">
                         <img src="<?= base_url('assets/') ?>img/logo.png" alt="">
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a href="#main" class="nav-link">Beranda</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#about" class="nav-link">Tentang</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#contact" class="nav-link">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link btn btn-primary">Login</a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </nav>
         </div>
@@ -51,7 +31,7 @@
             <div class="row">
                 <div class="col-sm-6">
                     <h2>Aplikasi Pembayaran SPP</h2>
-                    <a href="#" class="btn btn-primary"><i class="fas fa-dollar-sign"></i> Lihat History Pembayaran</a>
+                    <p class="lead">Aplikasi ini dibuat untuk memenuhi Uji Kompetensi Keahlian paket 1 mengenai aplikasi pembayaran spp. Jika ada kritik dan saran bisa menghubungi Email : <a href="mailto:21sacah002@gmail.com" class="email" target="_blank">21sacah002@gmail.com</a></p>
                 </div>
                 <div class="col-sm-6 right">
                     <div class="card m-n1">
@@ -80,68 +60,6 @@
             </div>
         </div>
     </section>
-
-    <section id="about">
-        <div class="container">
-            <div class="subtitle text-center">
-                <h3>About</h3>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-4">
-                    <div class="card one" style="border-radius: 20px;">
-                        <div class="card-body">
-                            <div class="card-title text-center">
-                                <h5>Login</h5>
-                            </div>
-                            <p class="card-text">Login terlebih dahulu dengan NIS sebagai username dan password yang sudah diberikan oleh admin.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card two" style="border-radius: 20px;">
-                        <div class="card-body">
-                            <div class="card-title text-center">
-                                <h5>Lihat Keterangan</h5>
-                            </div>
-                            <p class="card-text">Lihat keterangan bulan apa anda belum membayar spp. Setelah itu masuk ke menu pembayaran.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card three" style="border-radius: 20px;">
-                        <div class="card-body">
-                            <div class="card-title text-center">
-                                <h5>Pembayaran</h5>
-                            </div>
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quaerat odio neque impedit</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section id="lorem">
-        <div class="container">
-            <div class=" text-center">
-                <h3>Contact</h3>
-            </div>
-
-        </div>
-    </section>
-
-
-    <section id="contact">
-        <div class="container">
-            <div class="subtitle text-center">
-                <h3>Contact</h3>
-            </div>
-
-        </div>
-    </section>
-
-    <hr>
 
     <footer>
         <div class="container mt-5">
