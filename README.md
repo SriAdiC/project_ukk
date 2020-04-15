@@ -78,4 +78,4 @@ Halaman siswa hanya ada menu home dan lihat history saja.
 
 ##### Untuk Kritik dan saran bisa hubungi email : 21sacah002@gmail.com
 
-# TERIMA KASIH :)
+# TERIMA KASIH SEMOGA BERMANFAAT :)
